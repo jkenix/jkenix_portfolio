@@ -2,7 +2,21 @@
   max-width: 1920px;
   margin: 0 auto;
 }
-
+.b-to-port {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.b-to-port a {
+  font-size: 2rem;
+  color: blue;
+}
+.b-to-port a:hover {
+  color: gray;
+}
+.b-to-port a:active {
+  color: #000;
+}
 .l-header {
   display: flex;
   justify-content: space-between;
