@@ -1,0 +1,409 @@
+// Import mixins
+@import "lib/breakpoints";
+// Media main
+@media (min-width: 2099px) {
+  #scroll_top {
+    width: 300px; 
+    height: 200px; 
+    font-size: 100px;
+  }
+}
+@media (min-width: 1921px) {
+  #scroll_top {
+    min-width: 80px; 
+    min-height: 80px;
+    max-width: 100px; 
+    max-height: 100px;
+    font-size: 50px;
+  }
+  .l-footer {
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    gap: 10px;
+  }
+}
+@media (min-width: 1441px) {
+  .l-header, .l-main .db {margin: 0 auto;}
+  .l-header {padding: 0 0 11px 0px;}
+  .l-main {
+    .l-shop-block {
+      padding: 0;
+      .shop-preview {
+        max-width: 45%;
+        &-content {padding: 260px 159px 64px 64px;}
+      }
+    }
+    .l-celebrating-imperfect {align-items: center;}
+  }
+  .l-footer {
+    .l-contacts-block, 
+    &-bottom {justify-content: center;}
+  }
+}
+@include media-breakpoint-down(xxl)  { // 1400px
+  .l-main {
+    .l-shop-block {
+      .shop-preview {
+        max-width: 40%;
+        &-content {padding: 130px 21px 64px 40px;}
+      }
+    }
+    .l-features-block {
+      .rts {
+        margin: 0 auto 59px auto;
+        max-width: 65%;
+      }
+      .features {
+        justify-content: center;
+        margin: 0; gap: 30px;
+      }
+    }
+    .l-gtrs-block .review-block {
+      .review-img {
+        height: auto;
+        img {max-width: 100%;}
+      }
+      .review-text {justify-content: center; padding: 0 20px;}
+    }
+    .l-journal-block {
+      padding: 46px 0px 64px;
+      justify-content: center;
+    }
+  }
+}
+@include media-breakpoint-down(xl) { // 1200px
+  .l-main {
+    .l-shop-block {
+      .shop-preview {
+        justify-content: center;
+        max-width: 100%; 
+        width: 1090px; 
+        height: auto;
+        margin-top: 0px;
+        &-content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 64px 20px;
+          h2 {max-width: 80%; text-align: center;}
+          .btn {margin: 0; padding: 0;}
+        }
+      }
+      .shop-preview-pic {display: none;}
+    }
+    .l-features-block .rts {max-width: 80%;}
+    .l-collection-block {
+      .collection {
+        .collection-item {
+          height: auto;
+          &-image {
+            height: auto;
+            img {height: auto;}
+          }
+          &-desc {
+            flex-direction: column;
+            gap: 10px; flex-wrap: wrap;
+            .price {gap: 70px; flex-wrap: wrap;}
+          }
+        }
+      }
+    }
+    .l-gtrs-block .review-block {
+      .review-text p {font-size: 1.45rem;}
+    }
+    .l-journal-block {
+      gap: 40px;
+      .top-news, .last-news-list {width: 487px;} // Common classes
+      .top-news-content {width: auto; padding: 10px;}
+    }
+    .l-celebrating-imperfect {
+      padding-right: 80px;
+      .products-top {justify-content: center;}
+      .products-img-line {
+        flex-wrap: wrap; justify-content: center;
+        gap: 20px;
+        .product-img img {width: 330px;}
+      }
+    }    
+  }
+  .l-footer {
+    .l-contacts-block .contacts > div {width: 150px;}
+  }
+}
+@include media-breakpoint-down(lg)  { // 992px
+  .l-header {
+    margin: 0;
+    padding: 0 10px 11px 10px;
+    .header-menu .btn {margin: 0;}
+  }
+  .l-main {
+    .db {margin: 0;} // Delete margin
+   .l-shop-block {padding: 0;}
+   .l-features-block {
+      padding: 63px 56px 0;
+      .rts {max-width: 85%;}
+   }
+   .l-collection-block {
+      padding: 40px 52px 64px;
+      .collection .collection-item-desc .price {gap: 65px;}
+    }
+    .l-gtrs-block {
+      padding: 0;
+      .review-block {padding: 0 52px;}   
+    }
+    .l-companies-block {
+      padding: 40px 24px 20px;
+      .companies-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        .cleo, .arial {width: 325px;}
+        .arial {padding: 0;}
+        .cleo p {padding-left: 20px; padding-right: 20px;}
+      }
+    }
+    .l-journal-block {
+      padding: 0 0 64px;
+      flex-direction: column;
+      align-items: center;
+      .top-news {
+        width: auto; max-width: 100%;
+        &-content {
+          padding: 30px 0px 30px;
+          margin: 0;
+          h2 {max-width: 50%; margin: 0 auto 8px;}
+          p {max-width: 60%; margin: 0 auto 10px;}
+        }
+      }
+      .last-news-list {margin: 10px 0;}
+    }
+    .l-celebrating-imperfect {
+      padding: 96.33px 0px 64px;
+    }
+  }
+  .l-footer {
+    padding: 0 40px 0;
+    .l-contacts-block {gap: 60px;}
+  }
+}
+@include media-breakpoint-down(md)  { // 768px
+  .l-header {
+    .header-menu {
+      .nav nav {gap: 15px; padding-right: 15px;}
+      .btn {width: 90px;}
+    }
+  }
+  .l-main {
+    .l-features-block {padding: 63px 30px 40px;}
+    .l-collection-block  {
+      padding: 0 30px 64px;
+      .collection {
+        gap: 18.33px;
+        flex-wrap: wrap;
+        justify-content: center;
+        &-item {
+          max-width: 240px; background: #e9e9e7;
+          .collection-item-desc .price {gap: 10px;}
+        }
+        .ci-md {
+          max-width: 100%; 
+          .collection-item-image {
+            height: 250px;
+            img {width: 500px;}
+          }
+        }
+      }
+      .shop-categories {
+        flex-wrap: wrap; 
+        justify-content: center;
+      }
+      .shop-categories {
+        .shop-all, .browse-collection {width: 500px;}
+      }
+    }
+    .l-gtrs-block {
+      padding: 0;
+      .review-block-content {
+        flex-direction: column; 
+        align-items: center;
+        .review-img {
+          display: flex; 
+          justify-content: center;
+          img {width: 500px;}
+        } 
+        .review-text {
+          padding: 0; width: 500px;
+          p {max-width: 90%; margin: 0 auto 10px;}
+          span {font-size: 1rem;}
+        }
+      }
+    }
+    .l-companies-block .companies-list {
+      gap: 10px;
+      .cleo {width: 350px;}
+      .arial, .walden {width: 250.5px;}
+    }
+    .l-celebrating-imperfect .products-img-line .product-img img {
+      width: 250px;
+    }
+  }
+  .l-footer {
+   .l-contacts-block {
+      flex-direction: column;
+      align-items: center;
+      .contacts {
+        justify-content: center;
+        gap: 10px;
+        & > div {width: 160px; text-align: center;}
+        .learn, .template { // Common classes
+          .contacts-nav {padding: 0;}
+        }
+      }
+    }
+  }
+}
+@include media-breakpoint-down(sm) { // 576px
+  .l-header .header-menu .btn {width: 114px;}
+  .l-main {
+    .l-shop-block .shop-preview {
+      margin-top: 20px; 
+      &-content {
+        padding: 64px 0; 
+        h2 {font-size: 1.5rem;}
+      }
+    }
+    .l-features-block {
+      .rts {
+        max-width: 100%; text-align: initial;
+        margin: 0 0 20px;
+        h2 {text-align: center;}
+        p {font-size: 1.1rem;}
+      }
+      .features {flex-direction: column; align-items: center;}
+    }
+    .l-collection-block {
+      .collection {
+        gap: 8.33px;
+        .collection-item {
+          max-width: 100%;
+          .collection-item-image {
+            height: 190px;
+            img {width: 420px;}
+          }
+        }
+      }
+      .shop-categories {
+        .shop-all, .browse-collection {
+          height: 250px; width: 420px;
+          background-image: none;
+          &-wr {height: 250px;}
+        }
+        .shop-all-desc, .browse-collection-desc {margin: 70px auto 0 auto;}
+      }
+    }
+    .l-gtrs-block .review-block {
+      padding: 0 30px;
+      .review-block-content {
+        .review-img, .review-text {max-width: 100%;} // Common classes
+        .review-img img {width: 350px;}
+        .review-text p {font-size: 1.1rem; max-width: 100%;}
+      }
+    }
+    .l-companies-block .companies-list {
+      gap: 15px;
+      .cb {width: 272px;}
+    }
+    .l-journal-block {
+      .top-news {
+        h2 {max-width: 70%;}
+        p {max-width: 75%;}
+      }
+      .last-news {
+        max-width: 100%;
+        &-top {text-align: center;}
+        &-list {
+          max-width: 100%; 
+          align-items: center;
+          gap: 30px;
+          .ln-section  {
+            h2 {
+              max-width: 60%;
+              width: auto;
+              margin: 0 auto;
+              font-weight: 700;
+            }
+            p {
+              max-width: 70%;
+              width: auto;
+              margin: 0 auto;
+            }
+            .lns-img {
+              padding: 0; height: auto; 
+              max-width: 100%;
+              img {
+                width: 250px; 
+                height: auto;
+              }
+            }
+            .lns-link {
+              flex-direction: column; 
+              gap: 0px;
+              align-items: center;
+              .lns-block {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+              }
+            }
+          }
+        }
+      }
+    }
+    .l-celebrating-imperfect {
+      padding: 40px 30px 40px; gap: 45px;
+      h2 {text-align: center;}
+      .products-img-line {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        .product-img img {width: initial; height: auto;}
+      }
+    }
+  }
+  .l-footer {
+    gap: 40px;
+    .l-contacts-block {
+      gap: 10px;
+      .sub .line {padding: 0 0 25px;}
+      .contacts {
+        flex-wrap: wrap; gap: 15px;
+        & > div {height: auto;}
+        &-nav  {
+          .contacts-nav-title {font-size: 2rem; padding: 0 0 20px;}
+          .contacts-nav-content {
+            font-size: 1.5rem; padding-bottom: 25px;
+            &:nth-last-child(1) {padding-bottom: 10px;}
+          }
+        }
+      }
+    }
+    &-bottom {
+      flex-direction: column; 
+      height: auto;
+      .copyright {
+        width: auto; 
+        justify-content: center;
+        gap: 9px;
+        padding: 0;
+      }
+      .btn-block {
+        width: auto;
+        .btn {width: 150px; height: 50px;}
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  body {width: 320px;}
+}

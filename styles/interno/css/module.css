@@ -1,0 +1,49 @@
+.logo {
+  align-items: center;
+  display: flex;
+  gap: 10.88px;
+  width: 177px;
+  height: 50px;
+}
+
+.img__resp-block {
+  display: flex;
+}
+.img__resp-block img {
+  height: auto;
+}
+
+.img__resp {
+  max-width: 100%;
+}
+
+.btn {
+  align-items: center;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 18px;
+  display: flex;
+  font-size: 1.125rem;
+  height: 71px;
+  line-height: 27px;
+  letter-spacing: 0.72px;
+}
+
+.desc-text-block {
+  display: flex;
+  flex-direction: column;
+}
+
+#desc-title {
+  font-size: 1.5rem;
+  font-family: "DMSerifDisplayRegular";
+}
+
+.desc-arrow {
+  align-items: center;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=module.css.map */

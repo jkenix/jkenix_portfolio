@@ -1,0 +1,48 @@
+// Import mixins, variables
+@import "mixins_var.scss";
+// Header/Footer logo
+.logo {
+  align-items: center;
+  display: flex;
+  gap: 10.88px;
+  width: 177px;
+  height: 50px;
+}
+// Images
+.img__resp-block {
+  display: flex;
+  img {
+    height: auto;
+  }
+}
+.img__resp {
+  max-width: 100%;
+}
+// Buttons
+.btn {
+  align-items: center;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 18px;
+  display: flex;
+  font-size: 1.125rem;
+  height: 71px;
+  line-height: 27px;
+  letter-spacing: 0.72px;
+}
+// Main
+.desc-text-block {
+  @include flexcolumn();
+}
+
+#desc-title {
+  font-size: 1.5rem;
+  font-family: "DMSerifDisplayRegular";
+}
+
+.desc-arrow {
+  align-items: center;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+}

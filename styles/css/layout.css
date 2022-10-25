@@ -1,0 +1,56 @@
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.l-header {
+  margin: 20px 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.l-header a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.l-main {
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 105px;
+}
+.l-main h2 {
+  margin-bottom: 40px;
+}
+.l-main a {
+  font-size: 1.5rem;
+}
+.l-main-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(308.7px, 1fr));
+  grid-gap: 37px;
+}
+.l-main-content .page-block {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.l-footer {
+  margin: 20px 0;
+}
+.l-footer .l-author {
+  margin-top: 32px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  white-space: nowrap;
+}
+.l-footer .l-author span,
+.l-footer .l-author a {
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=layout.css.map */

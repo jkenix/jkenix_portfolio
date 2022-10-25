@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Arka</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="https://github.com/jkenix" />
+    <link rel="shortcut icon" href="/img/jklogo.webp" />
+    <link rel="stylesheet" media="screen" href="/styles/arka/arka_styles.css" />
+    <link rel="apple-touch-icon" href="/img/jklogo_apple.webp" />
+    <meta name="theme-color" content="#000" />
+    <meta property="og:title" content="Arka" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jkenix.github.io/" />
+    <meta
+      property="og:image"
+      content="https://jkenix.github.io/img/boxes-preview.webp" />
+    <meta property="og:image:width" content="504" />
+    <meta property="og::image:height" content="504" />
+    <meta
+      property="og:description"
+      content="Page made by jkenix from layout Arka." />
+    <meta property="og:site_name" content="jkenix.github.io" />
+    <script src="/js/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div class="b-to-port">
+      <a href="../index.html"> Back to Portfolio </a>
+    </div>
+    <header class="l-header" id="top">
+      <div class="logo">
+        <img src="/img/arka-logo.svg" width="85" height="24" alt="Arka logo" />
+      </div>
+      <div class="header-menu">
+        <nav class="nav">
+          <ul class="list">
+            <li class="syd">
+              <svg
+                width="16"
+                height="16"
+                role="img"
+                aria-labelledby="starspicture"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <title id="starspicture">Stars picture</title>
+                <path
+                  d="M10.544 0.888889C9.89552 5.94667 10.0866 7.43644 5.55952 8C10.0103 8.69067 10.0743 10.2489 10.544 15.1111C11.1633 10.2204 11.0428 8.75556 15.5294 8C11.008 7.44533 11.1595 5.94133 10.544 0.888889ZM3.16046 1.01956C2.81129 3.74844 2.91388 4.55289 0.470581 4.85689C2.87246 5.23022 2.90729 6.07022 3.16046 8.69422C3.49458 6.05422 3.42964 5.264 5.85129 4.85689C3.41082 4.55733 3.4927 3.74578 3.16046 1.01956ZM5.6094 8.68089C5.3647 10.5947 5.43623 11.1582 3.72329 11.3716C5.40799 11.6329 5.43152 12.2222 5.6094 14.0622C5.8447 12.2116 5.79764 11.6569 7.49552 11.3716C5.7854 11.1618 5.84282 10.5929 5.6094 8.68089Z"
+                  fill="#011F3A"
+                  stroke="#011F3A"
+                  stroke-width="0.621"
+                  stroke-linecap="square" />
+              </svg>
+              <a href="#">START YOUR DESIGN</a>
+            </li>
+            <li class="allprod"><a href="#">ALL PRODUCTS</a></li>
+            <li class="inspiration"><a href="#">INSPIRATION</a></li>
+            <li class="about"><a href="#">ABOUT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="user-block">
+        <a class="profile" href="#">ACCOUNT</a>
+        <a href="#"
+          ><svg
+            width="24"
+            height="24"
+            role="img"
+            aria-labelledby="basketlogo"
+            aria-hidden="true"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path d="M0 0H24V24H0V0Z" fill="url(#pattern0)" />
+            <title id="basketlogo">Basket logo</title>
+            <defs>
+              <pattern
+                id="pattern0"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1">
+                <use xlink:href="#image0_1_31" transform="scale(0.0138889)" />
+              </pattern>
+              <image
+                id="image0_1_31"
+                width="72"
+                height="72"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAM6SURBVHgB7ZtPctMwFMa/JzpZlwMwNcMFyrJlQTgBvQHdsio3AG5AbgBLVpAT4G46nWGBjyBm2JMlzRA/JAcnQCQ7si1q2frN9E8sP3n8Kr3vvWcXiEQikUgkEolEDBBGBB09+gTw1MEkG4+Dkukh8fK7iwkTnQuMhdXNFM6sLkfjIEE4czmfGXPIazkaBzHhsZOBoA/6xzhiUHJ6TIwvDhaSv17d178cYBRo5TKuhUw54mGV5Si2GLF4ajqu4sxljekIHKTk3Zr75PlH1HBARycqeaIpAoe1Ssmr+c6Alndh3F4LfLtOUYNQydA7DIKJcbvY5H2f7VXYq4n1MlsgYBicQqbGe7DK+28Zr0PoidUkM4SMTupMKHlX4SMxG632XUGayRuEjPiZmgeshWmms2TsM3XxvVieapmGiYT8nJkG2sh7yUbmmfg1AkTdbGocaCnvJds8SBaSlyE0BMw3a6/e95L37fR/oIL1HMHhR9438/xzMR2sg5F8n/K+Of2vT1ryGeEkjh7lvWS3FhP7B7Bbx1He1ytuP3nfXGLnSBGsg5B8Z3lX+85p9WiEeZ7+S35DeTfbVGBud6wlv9/B2l3epYu8by9jof/1mbO8p2hARcOsv/VZM3lHI/GxO0hLPtBPRbMF20p5nzgHaE11y5Xyfm4za7Ctkve0UUytdlA/Jd8abO3y3ryEqm3a960+ayTv1oSynuE8OLx3ckbmOmvzELAJg3ns07W8b+bFQOha3rfmQ8CDvJcMZAV1L+8lg3CQD3kvcXu7Izl9RYyX6B1sPiy4dSXguIKCaslK1+aYCTcHBdSSbSvvJe4xKJSWbJ538odslEmH8MqMyp47qRIaqVjfX5lhDvH5XiQySvy1O1R/RuTLC1VEnutP6kuqJPNtLiaz2vS/jW3H+HHQ+h9HlNLh2DCaMU2eWG+0ja0HvNRiAssLmG8QxfF8+cKHrQ+8OIiZz6vGifDMh60PPFXzlNSckPix7R5PDmJZc4L0Y9s9frZYTaZdVfC2sfWBpxVUtEVs7ztmEFWPtdvYds8d+GAhf+Dug/eg1Q2BExVXDllvHaIZaPK8Uqbb2EYikUgkEolEIv+LX2RGdy+72QKnAAAAAElFTkSuQmCC" />
+            </defs></svg
+        ></a>
+      </div>
+    </header>
+    <main class="l-main">
+      <div class="l-custom-box-title">
+        <div class="l-custom-box-title-content">
+          <h1>Fast and easy custom boxes your customers will love</h1>
+          <p>
+            Fastest turnaround. Best prices instantly. Dieline design help
+            available.
+          </p>
+          <div class="button-block">
+            <button class="btn-main btn-wt">START YOUR DESIGN</button>
+          </div>
+        </div>
+        <div class="l-custom-box-title-img">
+          <img
+            src="/img/boxes-preview.webp"
+            class="img__resp"
+            width="504"
+            height="504"
+            alt="Boxes preview" />
+        </div>
+      </div>
+      <div class="l-specifications">
+        <div class="l-specifications-content">
+          <div class="shopify">
+            <img src="/img/shopify.svg" width="142" height="80" alt="Shopify" />
+            <span>Shopify Integrated</span>
+          </div>
+          <div class="amazon">
+            <img src="/img/amazon.svg" width="80" height="80" alt="Amazon" />
+            <span>Amazon Certified</span>
+          </div>
+          <div class="eco">
+            <img
+              src="/img/eco-friendly.svg"
+              width="125"
+              height="80"
+              alt="Eco friednly" />
+            <div class="eco-content">
+              <span>Eco-Frie</span><span>ndly</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="l-customize-products sw-bg">
+        <div class="l-customize-products-title">
+          <h2>Products you can customize</h2>
+          <button class="btn-main btn-wt btn-hbbg">BROWSE ALL PRODUCTS</button>
+        </div>
+        <div class="l-customize-products-catalog">
+          <div class="products-column pc-1">
+            <div class="product ccb">
+              <a href="#">
+                <div class="product-img">
+                  <img
+                    src="/img/CCB.webp"
+                    class="img__resp"
+                    width="398"
+                    height="302"
+                    alt="Custom Carton Boxes" />
+                </div>
+                <div class="product-desc">
+                  <span class="p-name">Custom Carton Boxes</span>
+                  <div class="product-desc-content">
+                    <p>
+                      Create a clean brand presentation with this custom carton
+                      box.
+                    </p>
+                    <div class="price">
+                      <span>Starting at:</span>
+                      <span>$0.41/unit</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product ct">
+              <a href="#">
+                <div class="product-img">
+                  <img
+                    src="/img/CT.webp"
+                    class="img__resp"
+                    width="398"
+                    height="302"
+                    alt="Custom Tape" />
+                </div>
+                <div class="product-desc">
+                  <span class="p-name">Custom Tape</span>
+                  <div class="product-desc-content">
+                    <p>
+                      High quality custom tape to seal your shipping boxes
+                      during delivery.
+                    </p>
+                    <div class="price">
+                      <span>Starting at:</span>
+                      <span>$12.16/unit</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="products-column pc-2">
+            <div class="product cb">
+              <a href="#">
+                <div class="product-img">
+                  <img
+                    src="/img/CB.webp"
+                    class="img__resp"
+                    width="398"
+                    height="302"
+                    alt="Custom Boxes" />
+                </div>
+                <div class="product-desc">
+                  <span class="p-name">Custom Boxes</span>
+                  <div class="product-desc-content">
+                    <p>A stylish and strong corrugated cardboard box.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product cs">
+              <a href="#">
+                <div class="product-img">
+                  <img
+                    src="/img/CS.webp"
+                    class="img__resp"
+                    width="398"
+                    height="302"
+                    alt="Custom Stickers" />
+                </div>
+                <div class="product-desc">
+                  <span class="p-name">Custom Stickers</span>
+                  <div class="product-desc-content">
+                    <p>
+                      Add personality to your packages with custom stickers.
+                    </p>
+                    <div class="price">
+                      <span>Starting at:</span>
+                      <span>$0.41/unit</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="products-column pc-3">
+            <div class="product cpm">
+              <a href="#">
+                <div class="product-img">
+                  <img
+                    src="/img/CPM.webp"
+                    class="img__resp"
+                    width="398"
+                    height="302"
+                    alt="Custom Poly Mailers" />
+                </div>
+                <div class="product-desc">
+                  <span class="p-name">Custom Poly Mailers</span>
+                  <div class="product-desc-content">
+                    <p>A fully custom high quality self sealing poly mailer.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product ctp">
+              <a href="#">
+                <div class="product-img">
+                  <img
+                    src="/img/CTP.webp"
+                    class="img__resp"
+                    width="398"
+                    height="302"
+                    alt="Custom Tissue Paper" />
+                </div>
+                <div class="product-desc">
+                  <span class="p-name">Custom Tissue Paper</span>
+                  <div class="product-desc-content">
+                    <p>The perfect addition to branding your package.</p>
+                    <div class="price">
+                      <span>Starting at:</span>
+                      <span>$6.54/unit</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="l-customize-products-shock-items">
+          <span>Need unbranded stock items?</span>
+          <button class="btn-main btn-wbg btn-hbbg">SHOP STOCK</button>
+        </div>
+      </div>
+      <div class="l-steps-products sw-bg">
+        <div class="l-steps-products-content">
+          <h2>Fast and easy custom boxes your customers will love</h2>
+          <div class="steps-products">
+            <div class="you-order sp sp-1">
+              <div class="sp-img img__resp-block">
+                <img
+                  src="/img/your-order.webp"
+                  class="img__resp"
+                  width="300"
+                  height="300"
+                  alt="You Order" />
+              </div>
+              <span>You Order</span>
+              <p>Design and order boxes in a few clicks.</p>
+            </div>
+            <div class="we-proof sp sp-2">
+              <div class="sp-img img__resp-block">
+                <img
+                  src="/img/we-proof.webp"
+                  class="img__resp"
+                  width="300"
+                  height="300"
+                  alt="We proof" />
+              </div>
+              <span>We Proof</span>
+              <p>Approve your designs before production.</p>
+            </div>
+            <div class="we-print-ship sp sp-3">
+              <div class="sp-img img__resp-block">
+                <img
+                  src="/img/we-print-ship.webp"
+                  class="img__resp"
+                  width="300"
+                  height="300"
+                  alt="We Print & Ship" />
+              </div>
+              <span>We Print & Ship</span>
+              <p>Your order gets printed and shipped with tracking.</p>
+            </div>
+          </div>
+          <button class="btn-main btn-wt btn-hbbg">START YOUR DESIGN</button>
+        </div>
+      </div>
+      <div class="l-arka-advantage sw-bg">
+        <h2>The Arka advantage</h2>
+        <div class="l-arka-advantage-content">
+          <div class="advantage-column ac-1">
+            <div class="advantage-column-img img__resp-block">
+              <img
+                src="/img/Eco-friendly-material.webp"
+                class="img__resp"
+                width="254"
+                height="254"
+                alt="Eco friendly material" />
+            </div>
+            <div class="advantage-column-desc">
+              <span>Eco-Friendly Material</span>
+              <p>
+                Order as little as 10, giving you the lowest minimums in the
+                industry at the best prices.
+              </p>
+            </div>
+          </div>
+          <div class="advantage-column ac-2">
+            <div class="advantage-column-img img__resp-block">
+              <img
+                src="/img/Full-out-print.webp"
+                class="img__resp"
+                width="254"
+                height="254"
+                alt="Full Outside Print" />
+            </div>
+            <div class="advantage-column-desc">
+              <span>Full Outside Print</span>
+              <p>
+                Design what you want - no extra cost! Prices include 100%
+                exterior print, change design whenever!
+              </p>
+            </div>
+          </div>
+          <div class="advantage-column ac-3">
+            <div class="advantage-column-img img__resp-block">
+              <img
+                src="/img/Proofing.webp"
+                class="img__resp"
+                width="254"
+                height="254"
+                alt="Proofing" />
+            </div>
+            <div class="advantage-column-desc">
+              <span>Proofing</span>
+              <p>
+                After you order, our internal designers help make sure your
+                designs are 100% ready for printing!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="l-faq-block sw-bg">
+        <div class="l-faq-block-content">
+          <div class="faq-article faq-1">
+            <div class="faq-article-img img__resp-block">
+              <img
+                src="/img/Size-you-need.webp"
+                class="img__resp"
+                width="210"
+                height="210"
+                alt="Size you need" />
+            </div>
+            <h2>Couldn't find a size you need?</h2>
+            <p>
+              We’ll work directly with you to create a fully branded packaging
+              system.
+            </p>
+            <button class="btn-main btn-wbg btn-hbbg">REQUEST A QUOTE</button>
+          </div>
+          <div class="faq-line">
+            <div class="faq-img">
+              <img
+                src="/img/line-faq.svg"
+                width="1"
+                height="410"
+                alt="Line faq" />
+            </div>
+          </div>
+          <div class="faq-article faq-2">
+            <div class="faq-article-img img__resp-block">
+              <img
+                src="/img/Free-deieline.webp"
+                class="img__resp"
+                width="210"
+                height="210"
+                alt="Size you need" />
+            </div>
+            <h2>Need a free dieline template?</h2>
+            <p>
+              Let us know what size you need and we'll email an Adobe
+              Illustrator dieline to you within 3-4 business days.
+            </p>
+            <button class="btn-main btn-wbg btn-hbbg">REQUEST A QUOTE</button>
+          </div>
+        </div>
+      </div>
+      <div class="l-reviews sw-bg">
+        <h2>Merchants love Arka</h2>
+        <div class="l-reviews-content">
+          <div class="companies-reviews">
+            <div class="reviews-block img__resp-block cb">
+              <img
+                src="/img/Google.svg"
+                width="208"
+                height="114"
+                alt="Google review" />
+            </div>
+            <div class="reviews-block img__resp-block cb">
+              <img
+                src="/img/Shopify-review.svg"
+                width="246"
+                height="114"
+                alt="Shopify review" />
+            </div>
+          </div>
+          <div class="reviews-section js">
+            <div class="reviews-block imgs-block">
+              <div class="img-block img__resp-block">
+                <img
+                  src="/img/img-review-1.webp"
+                  class="img__resp"
+                  width="294"
+                  height="294"
+                  alt="Decorative image 1" />
+              </div>
+              <div class="img-block img__resp-block">
+                <img
+                  src="/img/img-review-2.webp"
+                  class="img__resp"
+                  width="294"
+                  height="294"
+                  alt="Decorative Image 2" />
+              </div>
+            </div>
+            <div class="reviews-block rbt">
+              <div class="rbt-content">
+                <blockquote>
+                  <p>
+                    “Arka’s team is super fast, knowledgeable, and easy to work
+                    with - highly recommended!”
+                  </p>
+                </blockquote>
+                <div class="about-reviewer">
+                  <div class="reviewer">
+                    <img
+                      src="/img/Jesse.svg"
+                      width="60"
+                      height="60"
+                      alt="Jesse" />
+                    <div class="reviewer-info">
+                      <span class="r-name">Jesse</span>
+                      <span class="r-desc">Subscription Catalyst</span>
+                    </div>
+                  </div>
+                  <a href="#">THEIR STORY</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews-section ls">
+            <div class="reviews-block rbt">
+              <div class="rbt-content">
+                <blockquote>
+                  <p>
+                    “I really like Arka because it’s a really nice box, I’ve
+                    gotten a lot of compliments on it.”
+                  </p>
+                </blockquote>
+                <div class="about-reviewer">
+                  <div class="reviewer">
+                    <img
+                      src="/img/Leslie.svg"
+                      width="60"
+                      height="60"
+                      alt="Leslie" />
+                    <div class="reviewer-info">
+                      <span class="r-name">Leslie</span>
+                      <span class="r-desc">Burgundy Fox</span>
+                    </div>
+                  </div>
+                  <a href="#">THEIR STORY</a>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-block imgs-block">
+              <div class="img-block img__resp-block">
+                <img
+                  src="/img/img-review-3.webp"
+                  class="img__resp"
+                  width="294"
+                  height="294"
+                  alt="Decorative image 3" />
+              </div>
+              <div class="img-block img__resp-block">
+                <img
+                  src="/img/img-review-4.webp"
+                  class="img__resp"
+                  width="294"
+                  height="294"
+                  alt="Decorative Image 4" />
+              </div>
+            </div>
+          </div>
+          <div class="reviews-section as">
+            <div class="reviews-block imgs-block">
+              <div class="img-block img__resp-block">
+                <img
+                  src="/img/img-review-5.webp"
+                  class="img__resp"
+                  width="294"
+                  height="294"
+                  alt="Decorative image 5" />
+              </div>
+              <div class="img-block img__resp-block">
+                <img
+                  src="/img/img-review-6.webp"
+                  class="img__resp"
+                  width="294"
+                  height="294"
+                  alt="Decorative Image 6" />
+              </div>
+            </div>
+            <div class="reviews-block rbt">
+              <div class="rbt-content">
+                <blockquote>
+                  <p>
+                    “I love how easily it was to customize the box, and you guys
+                    were more affordable.”
+                  </p>
+                </blockquote>
+                <div class="about-reviewer">
+                  <div class="reviewer">
+                    <img
+                      src="/img/Anthony.svg"
+                      width="60"
+                      height="60"
+                      alt="Anthony" />
+                    <div class="reviewer-info">
+                      <span class="r-name">Anthony</span>
+                      <span class="r-desc">Lipstick Junkie</span>
+                    </div>
+                  </div>
+                  <a href="#">THEIR STORY</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="l-start-design sw-bg">
+        <h2>Let`s get to it</h2>
+        <div class="button-blocks">
+          <button class="btn-main btn-wt btn-hbbg syd">
+            START YOUR DESIGN
+          </button>
+          <button class="btn-main btn-wbg btn-hbbg bap">
+            BROWSE ALL PRODUCTS
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer class="l-footer">
+      <div class="l-footer-contacts">
+        <div class="logo">
+          <img
+            src="/img/arka-logo.svg"
+            width="85"
+            height="24"
+            alt="Arka logo" />
+        </div>
+        <ul class="contacts-block custom-design">
+          <li class="contacts-block-title">Custom Design</li>
+          <li class="contacts-block-link"><a href="#">All Products</a></li>
+          <li class="contacts-block-link"><a href="#">Inspiration</a></li>
+          <li class="contacts-block-link"><a href="#">Sustainability</a></li>
+          <li class="contacts-block-link"><a href="#">Affiliate Program</a></li>
+          <li class="contacts-block-link">
+            <a href="#">Request Custom Quote</a>
+          </li>
+          <li class="contacts-block-link"><a href="#">Request Dieline</a></li>
+        </ul>
+        <ul class="contacts-block about-us">
+          <li class="contacts-block-title">About Us</li>
+          <li class="contacts-block-link"><a href="#">Blog</a></li>
+          <li class="contacts-block-link"><a href="#">Partners</a></li>
+          <li class="contacts-block-link"><a href="#">Contact Us</a></li>
+          <li class="contacts-block-link"><a href="#">FAQ</a></li>
+          <li class="contacts-block-link">
+            <a href="#">Terms & Conditions</a>
+          </li>
+        </ul>
+        <ul class="contacts-block shopify-app">
+          <li class="contacts-block-title">Shopify App</li>
+          <li class="contacts-block-link">
+            <a href="#">14 Day Free Shopify Trial</a>
+          </li>
+          <li class="contacts-block-link"><a href="#">BigCommerce</a></li>
+          <li>
+            <div class="social-links">
+              <a href="#"
+                ><img
+                  src="/img/Facebook-logo.svg"
+                  width="24"
+                  height="24"
+                  alt="Facebook logo"
+              /></a>
+              <a href="#"
+                ><img
+                  src="/img/Twitter-logo.svg"
+                  width="24"
+                  height="24"
+                  alt="Twitter logo"
+              /></a>
+              <a href="#"
+                ><img
+                  src="/img/Instagram-logo.svg"
+                  width="24"
+                  height="24"
+                  alt="Instagram logo"
+              /></a>
+            </div>
+          </li>
+        </ul>
+        <div class="contacts-block email">
+          <span class="contacts-nav-title">Get exclusive offers and tips.</span>
+          <div class="form-block">
+            <form method="POST" autocomplete="on">
+              <input
+                title="Enter email"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email"
+                maxlength="50"
+                required />
+              <button class="btn-wt btn-hbbg" type="submit" name="submit">
+                Join instantly
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="l-author">
+        <address>
+          Page created by <a href="https://github.com/jkenix">jkenix</a>
+        </address>
+        <div class="layout-link">
+          <a href="https://www.figma.com/file/0S3Ad4hQP9FloidOMa3eWo/Arka"
+            >Original layout</a
+          >
+        </div>
+      </div>
+    </footer>
+    <div class="b-to-port">
+      <a href="index.html"> Back to Portfolio </a>
+    </div>
+    <script src="/js/arka_scripts.js"></script>
+  </body>
+</html>

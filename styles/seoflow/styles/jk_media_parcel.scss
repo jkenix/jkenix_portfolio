@@ -1,0 +1,893 @@
+// Import mixins from bootsrap.css.min.
+@import 'bootstrap/functions';
+@import 'bootstrap/variables.scss'; 
+@import 'bootstrap/mixins.scss';
+// Media main
+@media (min-width: 2099px) {
+  #scroll_top {
+    width: 100px; height: 100px; 
+    font-size: 100px;
+  }
+}
+@media (min-width: 1921px) {
+  body {background-color: $gray-700 !important;}
+  #scroll_top {
+    min-width: 80px; min-height: 80px;
+    max-width: 100px; max-height: 100px;
+    font-size: 50px;
+  }
+  .footer {
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    gap: 10px;
+  }
+}
+@media (min-width: 1501px) {
+  .main {
+    h2 {font-size: 3.438rem;}
+    h3 {font-size: 1.25rem;}
+    p {font-size: 1.25rem;}
+    .building-conversion-strategy {margin-bottom: 50px;}
+    .appear-fp {padding-bottom: 60px;}
+    .reasons-choosing-seo {padding-bottom: 60px;}
+    .conversion-rate {
+      justify-content: center; gap: 10px;
+      margin-bottom: 60px;
+      .cr-info_col {
+        max-width: 500px;
+        h2 {
+          margin-bottom: 35px;
+          width: 90%;
+        }
+        p {width: 80%;}
+        .btn_main-content {margin: 0 auto; max-width: 80%;}
+      }
+      .cards_col {
+        .row_content .row {justify-content: center;}
+        .b-wr {
+          padding: 35px 0 0 0px;
+          p, span {margin: 15px auto 0 auto; width: 85%;}
+          span {text-align: center;}
+        }
+      }
+    } 
+    .seo-marketing {
+      margin-bottom: 0px; 
+      .text_col {
+        h2 {font-size: 3.438rem;}
+        p {margin-top: 30px;}
+        .btn_main-content {margin-bottom: 100px;} 
+      }
+    }
+    .how-seo-work {
+      margin-bottom: 60px;
+      .row_content  {
+        .business-strategy, .keyword-analysis, .optimization {
+          p {font-size: 1.25rem; margin-top: 20px;}
+        }
+      }
+    }
+    .marketing-team {
+      margin: 0 auto 100px; max-width: 1160px;
+      .col_1 {margin: 0;}
+      .col_3 {
+        .block_top, .block_bottom {margin-left: 0;} 
+      }
+    }
+    .pricing-plans {
+      padding-top: 60px;
+      margin-bottom: 100px;
+      .plans {justify-content: center; gap: 50px;}
+    }
+    .client-review {
+      margin-bottom: 100px;
+      p {max-width: 55%; margin: 0 auto;}
+      .carousel-control-next {margin-right: 350px;}
+      .carousel-control-prev {margin-left: 350px;}
+    }
+    .companies {margin-bottom: 100px;  margin: 0 auto;}
+    .news-case-studies {
+      .btn_main-content {margin-bottom: 60px;}
+      .row {justify-content: center;}
+      span {font-size: 1rem;}
+    }
+    .get-in-touch {
+      padding-top: 60px;
+      .contacts-wr .git-contacts {justify-content: center; gap: 30px;}
+    }
+    .enquiry-form {
+      padding-top: 80px;
+      .form_col {
+        padding: 0;
+        h2 {text-align: center;}
+        p {
+          width: 75%; 
+          margin: 0 auto 26px auto; 
+          text-align: center;
+        }
+        form {
+          justify-content: center;
+          .row {justify-content: center; gap: 20px;}
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1500px) { 
+  .main {
+    .strategic-seo-marketing {
+      padding: 75px 10px 76px 140px;
+      .row_content {max-width: 100%;}
+    }
+    .conversion-rate .cr-info_col h2 {max-width: 97%;}
+    .client-review {
+      .carousel-control-next {margin-right: 300px;}
+      .carousel-control-prev {margin-left: 300px;}
+    }
+  }
+}
+@include media-breakpoint-down(xxl)  { // 1400px
+  .nav-wr .b-wr .menu {padding-right: 0px;}
+  .main {
+    .strategic-seo-marketing {
+      padding: 75px 10px 76px 140px;
+      .row_content {gap: 0px;}
+    }
+    .seo-marketing-agency .as-content, // Common classes
+    .building-conversion-strategy .as-content { 
+      padding: 0 40px 0 40px;
+      .col_content-2 .row {
+        margin-left: 30px;
+        .text_col p {max-width: 100%; font-size: 1rem;}
+      }
+    }
+    .seo-marketing-agency {
+      padding: 0 123px 76px 140px;
+      margin: 0; height: 70px;
+      .as-content {
+        .col, .col-xl {padding-top: 60px;}
+      }
+    }
+    .building-conversion-strategy {
+      padding-top: 30px;
+      margin-bottom: 0;
+      .as-content .col_content-1 {padding: 0;}
+    }
+    .appear-fp, .reasons-choosing-seo { // Common classes
+      .img__resp {max-width: 400px;}
+      .text_col {
+        padding: 0;
+        p {width: 100%; padding-right: 40px;}
+        .ul-col li {padding-left: 0;}
+      }
+    }
+    .appear-fp {
+      gap: 55px;
+      margin: 0 123px 0 140px;
+      padding: 75.41px 0 0 0;
+      .text_col {
+        p {width: 100%; padding-right: 40px;}
+        .ul-col li {padding-left: 0;}
+      }
+    }
+    .reasons-choosing-seo {
+      gap: 55px;
+      margin: 0 123px 0 140px;
+      padding-bottom: 60px;
+      .text_col .stat_col {padding: 33px 0 0 0;}
+    }
+    .conversion-rate {
+      padding: 96px 123px 80px 140px;
+      margin-bottom: 60px;
+      .cr-info_col {
+        padding: 0;
+        display: flex;
+        flex-direction: column; justify-content: center;
+        span {max-width: 100%;} 
+        p {margin: 26px 0 25px;}
+        .btn {margin: 0;}
+      }
+      .cards_col {
+        text-align: center;
+        width: 600px;
+        padding: 0;
+        .row_content {justify-content: center;}
+        .b-wr {
+          padding: 35px 0 0 0;
+          .row {justify-content: center;}
+          p {max-width: 80%; margin: 0 auto;}
+        }
+        .cards-block_1, .cards-block_2 {
+          .b-wr {max-width: 280px;}
+        }
+      }
+    }
+    .our-services {
+      margin: 0 123px 30px 140px;
+      .b-wr {max-height: 110px;}
+    }
+    .seo-marketing {
+      margin: 0 123px 30px 140px;
+      .col-xxl {padding: 0;}
+      .text_col .btn {margin: 0;}
+      .img_col {padding-bottom: 40px;}
+      .img__resp {display: flex;}
+    }
+    .how-seo-work {
+      margin-bottom: 60px;
+      .row_content {justify-content: center; }
+    }
+    .marketing-team {
+      margin: 0 auto 70px;
+      max-width: 1160px;
+      .col, .col-lg {
+        .block_bottom {margin-bottom: 0;}
+        .col {justify-content: center;}
+      }
+      .col_1 {margin: 0;}
+      .col_3 {
+        .block_top, .block_bottom {margin-left: 10px;}
+      }
+    }
+    .pricing-plans {
+      padding-top: 60px; padding-bottom: 60px;
+      margin-bottom: 40px;
+      h3 {margin-bottom: 20px;}
+      .plans {
+        justify-content: center;
+        gap: 20px;
+        .row_price {padding-left: 50px; font-size: 2.5rem;}
+        .row_type .val {max-width: 115px;}
+        .ul-col {
+          padding-bottom: 10px; 
+          li {padding-bottom: 15px;}
+        }
+      }
+    }
+    .client-review {
+      margin-bottom: 100px;
+      p {width: 85%; margin: 0 auto;}
+      .carousel-control-next {margin-right: 250px;}
+      .carousel-control-prev {margin-left: 250px;}
+    }
+    .companies {
+      margin-bottom: 60px; padding: 0;
+      .col-sm, .col-md  { 
+        .col {padding: 0;}
+        .slack, .dato_cms, .oh_tb {justify-content: end;}
+        .airtable {justify-content: center;}
+        .gravel, .flick {justify-content: start;}
+      }
+    }
+    .news-case-studies {
+      padding: 79px 11.5px 60px 11.5px;
+      .row {justify-content: center;}
+    }
+    .get-in-touch {
+      padding-top: 60px;
+      .contacts-wr {
+        padding: 0;
+        .row  {justify-content: center; gap: 16px;}
+      }
+    }
+    .enquiry-form {
+      padding: 60px 135px 0 140px;
+      margin-bottom: 100px;
+      h2 {text-align: center;}
+      p {
+        width: 60%; 
+        margin: 0 auto 26px auto; 
+        text-align: center;
+      }
+      .img__resp {max-width: 350px;}
+      .form_col {
+        padding: 0;
+        form  {
+          justify-content: center;
+          .row {justify-content: center; gap: 10px;}
+        }
+      }
+    }
+  }
+  .footer {
+    gap: 30px; 
+    .contacts {
+      padding-bottom: 10px;
+      justify-content: center;
+      gap: 10px;
+      .nav_col {padding-top: 0; text-align: center;}
+      .seoflow {max-width: 220px;}
+      .ql ul li {padding: 0;}
+      .ql, .services {max-width: 150px;}
+      .git {
+        max-width: 250px;
+        ul li {padding: 0;}
+      }
+      .fu {
+        max-width: 120px;
+        .row {justify-content: center;}
+        span {width: auto; height: 25px;}
+        .media {width: auto; height: 25px;}
+      }
+    }
+  }
+}
+@include media-breakpoint-down(xl)  { // 1200px
+  header {padding: 20px 60px 0 60px;}
+  .nav-wr {
+    padding: 0 60px 0 60px;
+    .menu {padding: 0 75px 0 75px;}
+    .nav {justify-content: center; align-items: center;}
+  }
+  .main {
+    .strategic-seo-marketing {
+      padding: 0; 
+      .text_col {
+        display: flex; flex-direction: column;
+        h2 {align-items: center;}
+        p {
+          margin: 0 auto 25px auto; 
+          width: 60%;
+        }
+        button {
+          margin: 0 auto 30px auto; 
+          width: 50%;
+        }
+      }
+      .col {max-width: 100%;}
+      .img__resp {display: none;}
+    }
+    .seo-marketing-agency, // Common classes
+    .building-conversion-strategy  { 
+      padding: 0 60px 0 60px;
+      .as-content {
+        padding-left: 60px; padding-right: 60px;
+        .col_content-2 .row {
+          text-align: center; 
+          justify-content: center;  
+          gap: 10px; margin: 0;
+          .img__resp {max-height: initial;}
+          .text_col {
+            max-width: 450px;
+            span {font-size: 1.5rem;}
+            p {
+              width: 80%; 
+              margin: 0 auto; 
+              font-size: 1.25rem;
+              padding-top: 20px;
+            }
+          }
+        }
+      }
+    }
+    .seo-marketing-agency {
+      .as-content {
+        .col, .col-xl {padding-top: 0px;}
+        .col_content-1 {
+          text-align: center;
+          padding: 40px 0 230px 0;
+          span {font-size: 1.5rem;}
+        }
+      }
+    }
+    .building-conversion-strategy {
+      padding-top: 0px;
+      h2 {text-align: center;}
+      p {width: 90%; margin: 0 auto; font-size: 1.25rem;}
+      .as-content {
+        padding-bottom: 40px;
+        .col_content-2 {padding-top: 210px;}
+      }
+    }
+    .appear-fp, .reasons-choosing-seo { // Common classes
+      .text_col {
+        display: flex; flex-direction: column;
+        align-items: center;
+        p {
+          width: 55%; padding: 0px; 
+          font-size: 1.25rem; 
+        }
+      }
+    }
+    .appear-fp {
+      gap: 55px;
+      margin: 0 60px 0 60px;
+      padding-top: 40px;
+      .img__resp {display: none;}
+      .text_col .row {
+        text-align: center; gap: 5px;
+        ul li {font-size: 1.25rem;}
+      }
+      .check_col {height: 154px;}
+    }
+    .reasons-choosing-seo {
+      margin: 0 60px 40px 60px;
+      padding-left: 0;
+      .text_col .stat_col {
+        width: 100%; justify-content: center; 
+        .conversion .col {padding: 0; margin: 0 20px 0 0;}
+      }
+      .img__resp {display: none;}
+    }
+    .conversion-rate {
+      padding: 50px 60px 50px 60px;
+      margin-bottom: 30px;
+      justify-content: center;
+      .cr-info_col {
+        padding-bottom: 40px; 
+        max-width: 489px; 
+        align-items: center;
+        p {width: 80%; margin: 26px auto 26px;}
+      }
+    }
+    .our-services {
+      margin: 0 60px 0px 60px;
+      .row {
+        justify-content: center;
+        .col-xl {max-width: 270px;}
+        .b-wr {width: 167px; margin: 0 auto;}
+      }
+    }
+    .seo-marketing {
+      margin: 0 60px 30px 60px;
+      .text_col {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0 0 0;
+        p {width: 55%;}
+      }
+      .img__resp {display: none;}
+    }
+    .how-seo-work {
+      padding: 40px 60px 60px 60px;
+      margin-bottom: 30px;
+      .row_content {padding: 0;}
+    }
+    .marketing-team {padding: 0 60px 0 60px;}
+    .pricing-plans {padding: 60px;}
+    .client-review {
+      padding: 0 60px 0 60px;
+      p {width: 80%;}
+      .carousel-control-next {margin-right: 200px;}
+      .carousel-control-prev {margin-left: 200px;}
+    }
+    .companies {margin: 0 60px 60px 60px;}
+    .news-case-studies {
+      padding: 60px 30px 40px 30px;
+      .content {margin-bottom: 30px;}
+    }
+    .get-in-touch .contacts-wr {padding: 0 30.5px 0 30.5px;}
+    .enquiry-form {
+      padding: 60px 60px 0 60px;
+      .img__resp {max-width: 300px;}
+      p {width: 70%;}
+    }
+  }
+  .footer {
+    padding: 0 60px 10px 60px;
+    .contacts {
+      gap: 5px;
+      .seoflow, .git {max-width: 200px;}
+      .ql, .services {max-width: 140px;}
+    }
+    .footer-bottom {
+      justify-content: center;
+      .info_col {justify-content: center;}
+    }
+  }
+}
+@include media-breakpoint-down(lg)  { // 992px
+  .header {padding: 20px 20px 0 20px;}
+  .nav-wr {padding: 0 20px 0 20px;
+    .menu {padding: 0 0px 0 0px;}
+    .nav {justify-content: center; align-items: center;}
+    .b-wr .btn_main-content {width: 80px;}
+  }
+  .main {
+    .strategic-seo-marketing {
+      h2 {
+        display: initial; 
+        text-align: center; 
+        margin: 30px auto 41px auto;
+      }
+      p {
+        margin: 0 auto 25px auto;
+        width: 65%;
+      }
+    }
+    .seo-marketing-agency, // Common classes
+    .building-conversion-strategy  { 
+      padding: 0 20px 0 20px;
+      .as-content {padding-left: 20px; padding-right: 20px;}
+    }
+    .building-conversion-strategy {
+      p {width: 85%;}
+      .as-content .col_content-2 {padding-top: 210px;}
+    }
+    .appear-fp, .reasons-choosing-seo  { // Common classes
+      margin: 0 20px 0 20px;
+      .text_col p {margin: 0 auto 20px auto; width: 70%}
+    }
+    .conversion-rate {padding: 20px 20px 30px 20px;}
+    .our-services {
+      margin: 0 20px 30px 20px;
+      .row .col-xl {max-width: 235px;}
+    }
+    .seo-marketing {margin: 0 20px 30px 20px;}
+    .how-seo-work {
+      padding: 40px 20px 40px 20px;
+      h3 {line-height: initial;}
+    }
+    .marketing-team {
+      padding: 0 20px 0 20px;
+      .team {gap: 15px;}
+      .col_1, .col_2, .col_3 { // Common classes
+        .block_top {margin-bottom: 10px;}
+      }
+      .col_1 {
+        .block_top, .block_bottom {justify-content: flex-end;}
+      }
+      .col_2 {
+        .block_top, .block_bottom {justify-content: flex-start;}
+      }
+    }
+    .pricing-plans {
+      padding: 60px 20px 60px 20px;
+      .col-xl {max-width: 345.5px;}
+    }
+    .client-review {
+      padding: 0 20px 0 20px;
+      .carousel-control-next {margin-right: 100px;}
+      .carousel-control-prev {margin-left: 100px;}
+    }
+    .companies {margin: 0px 20px 60px 20px;}
+    .news-case-studies .col-lg {max-width: 337.5px;}
+    .get-in-touch .contacts-wr {
+      .git-contacts .col-lg {max-width: 330px;}
+    }
+    .enquiry-form {
+      padding: 320px 20px 0 20px;
+      .img__resp {display: none;}
+      p {width: 70%;}
+      .form_col form {
+        .col-sm, input {font-size: 1rem;}
+        textarea {max-width: 350px;}
+      }
+    }
+  }
+  .footer {
+    padding: 0 20px 10px 20px;
+    .contacts {
+      padding-bottom: 10px;
+      justify-content: center;
+      gap: 10px;
+      .nav_col {padding-top: 0;}
+      .seoflow {max-width: 220px;}
+      .ql, .services {max-width: 150px;}
+      .git {
+        max-width: 240px;
+        ul li {padding: 0;}
+        ul p:nth-child(2) {padding: 0 0 30px 0;}
+      }
+      .fu {max-width: 135px;}
+    }
+  }
+}
+@include media-breakpoint-down(md)  { // 768px
+  .nav-wr .b-wr .header-logo {max-width: 80px;}
+  .main {
+    .strategic-seo-marketing {
+      h2 {font-size: 3rem;}
+      p {
+        margin: 0 auto 25px auto;
+        width: 75%;
+      }
+    }
+    .seo-marketing-agency, // Common classes
+    .building-conversion-strategy  { 
+      .as-content {
+        .col_content-2 .row .text_col {
+          max-width: 350px;
+          p {width: 85%;}
+        }
+      }
+    }
+    .seo-marketing-agency .as-content {
+      .col_content-1 {padding: 40px 0 290px 0;}
+    }
+    .building-conversion-strategy {
+      .as-content {
+        .col_content-1 {
+          h2 {
+            width: 75%; 
+            margin: 0 auto;
+            line-height: initial;
+            padding: 20px 0 15px 0;
+          }
+          p {width: 90%;}
+        }
+        .col_content-2 {padding-top: 230px;}
+      }
+    }
+    .appear-fp, .reasons-choosing-seo { // Common classes
+      h2 {text-align: center;}
+      .text_col p {width: 75%}
+    }
+    .conversion-rate {
+      .cards_col {
+        display: flex; flex-direction: column;
+        gap: 15px; height: auto;
+        .row_content {
+          gap: 15px;
+          .col-md {max-width: 350px;}
+        }
+        .br__m {margin: 0;}
+      }
+    }
+    .our-services {
+      margin: 0 5px 30px 5px;
+      .row .col-xl {max-width: 170px;}
+    }
+    .seo-marketing .text_col p {width: 70%;}
+    .how-seo-work {
+      .row {gap: 20px;}
+      h3 {margin-bottom: 30px;}
+    }
+    .marketing-team {
+      h3 {margin: 10px 0 40px 0;}
+      .row {
+        .col_1, .col_2 {
+          .block_top, .block_bottom {justify-content: center;}
+        }
+        .col_3 {
+          .block_top, .block_bottom {margin-left: 20px;}  
+        }
+      }
+    }
+    .pricing-plans {
+      padding-top: 40px; padding-bottom: 40px;
+      .col-xl {
+        padding: 15px 38px 15px 30px;
+        .row_type {margin-bottom: 15px;}
+        .ul-col {padding: 0;}
+      }
+    }
+    .client-review {
+      p {width: 85%; font-size: 1.125rem;}
+      .carousel-control-next, .carousel-control-prev {margin: 0;}
+    }
+    .companies {
+      justify-content: center; gap: 20px;
+      .col-sm, .col_3 {max-width: 270px;}
+      .col_2 {max-width: 210px;}
+      .col_3 {
+        .gravel {justify-content: end;}
+        .flick {justify-content: center;}
+      }
+    }
+    .news-case-studies {
+      img {width: 450px;}
+      .content {
+        .col-lg, .col, .row {max-width: 450px;}
+      }
+    }
+    .get-in-touch .contacts-wr {
+      .git-contacts .col-lg {max-width: 450px;}
+    }
+    .enquiry-form {
+      padding: 550px 15px 0 15px;
+      margin-bottom: 50px;
+      .img__resp {display: none;}
+      p {width: 73%;}
+      .form_col form {
+        .row {padding: 0 50px 0 50px;}
+        .col-sm, input {max-width: 209px;  font-size: 1rem;}
+      }
+    }
+  }
+  .footer {
+    .contacts {
+      .seoflow {max-width: 190px;}
+      .fu {max-width: 110px;}
+    }
+    .fb_nav {justify-content: center;}
+  }
+}
+@include media-breakpoint-down(sm) { // 576px
+  .header-wr {
+    .header {
+      padding-bottom: 110px;
+      .row_content {justify-content: center; gap: 10px;}
+      .contacts {
+        justify-content: center;
+        .row {flex-direction: column; gap: 10px;}
+      }
+    }
+    .nav-wr .b-wr {
+      .header-logo {min-width: 90px;}
+      .menu-block {
+        display: flex;
+        width: auto; height: auto;
+        text-align: center;
+        .menu {
+          display: initial;
+          padding: 0px 50px 0 50px;
+          border: 1px solid #000;
+          background-color: #000;
+          color: #F4AB00;
+          user-select: none;
+          .fa-bars {padding-left: 10px;}
+        }
+        .nav {
+          padding-top: 33px;
+          display: none;
+        }
+        &:hover { 
+          .menu {color: #fff;}
+          .nav {
+            display: flex; 
+            flex-direction: column; 
+            position: absolute;
+            li {width: 188px;}
+          }
+        } 
+      }
+    }
+    .btn_main-content {max-width: 80px;}
+  }
+ .main {
+    .strategic-seo-marketing .text_col {
+      h2 {font-size: 2.55rem;}
+      p {width: 85%; font-size: 1rem;}
+      .btn_main-content {width: 140px;}
+    }
+    .seo-marketing-agency, // Common classes
+    .seo-marketing-agency, .building-conversion-strategy {
+     .as-content {
+      .img__resp {display: none;}
+      .col_content-1, .col_content-2 .row .text_col {
+        p {font-size: 1rem;}
+      }
+    }
+    }
+    .seo-marketing-agency {
+      .as-content {
+        .col, .col-xl {padding-top: 0;}
+        .col_content-1 {padding: 40px 70px 280px 70px;}
+      }
+    }
+    .building-conversion-strategy {
+      .as-content {
+        .col_content-1 {
+          h2 {padding-top: 45px;}
+          p {width: 95%;}
+        }
+        .col_content-2 {padding-top: 160px;}
+      }
+    }
+    .appear-fp, .reasons-choosing-seo {
+      .text_col p {font-size: 1rem; width: 85%;}
+    }
+    .reasons-choosing-seo .text_col .stat_col {
+      gap: 20px;
+      .row {
+        max-width: 250px; text-align: center;
+        .col {margin: 0;}
+      }
+    }
+    .conversion-rate .cr-info_col {
+      h2 {text-align: center;}
+      p {width: 90%; font-size: 1rem;}
+    }
+    .our-services {
+      margin: 0 10px 30px 10px;
+      .row {
+        gap: 2px;
+        .col-xl {max-width: 140px;}
+        .b-wr {
+          padding: 24px 0px 29px 0;
+          width: 140px;
+        }
+      }
+    }
+    .seo-marketing .text_col p {max-width: 95%; width: 95%; font-size: 1rem;}
+    .client-review p {font-size: 1rem; width: 95%;}
+    .companies {
+      .col-sm, .col-md {gap: 20px;}
+      .col_2 {max-width: 270px;}
+    }
+    .get-in-touch h3 {width: 90%; margin: 0 auto 55px;}
+    .enquiry-form {
+      .img__resp {display: none;}
+      p {width: 90%;}
+      .form_col form {
+        gap: 15px;
+        .row {padding: 0;}
+        .col, .col-sm, input {max-width: 260px;}
+      }
+    }
+ }
+ .footer {
+  .contacts {
+    .nav_col span {font-size: 1.5rem;}
+    .seoflow {
+      text-align: center;
+      p {margin: 0;}
+    }
+  }
+  .footer-bottom .nav {
+    gap: 0;
+    flex-direction: column;
+    .info-links {justify-content: center;}
+  }
+ }
+}
+@media (max-width: 466px) {
+  .nav-wr .b-wr {
+    justify-content: center; gap: 10px;
+    padding-top: 5px;
+    .header-logo {
+      width: 100%; 
+      display: flex; justify-content: center;
+    }
+    .menu-block {order: 3;}
+    .btn_main-content {max-width: 80px;}
+  }
+  .main  {
+    .strategic-seo-marketing .text_col {
+      h2 {
+        font-size: 2rem; 
+        margin-bottom: 25px; 
+        line-height: initial;
+      }
+    }
+    .seo-marketing-agency, // Common classes
+    .building-conversion-strategy  { 
+      .as-content {
+        .col_content-2 .row .text_col {
+          p {
+            line-height: initial; 
+            text-align: start; 
+            width: 100%;
+          }
+        }
+      }
+    }
+    .seo-marketing-agency  .as-content{
+      .col_content-1 {padding: 40px 0 260px 0;}
+    }
+    .building-conversion-strategy {
+      .as-content {
+        .col_content-1 {
+          h2 {padding-top: 45px; width: 100%;}
+          p {
+            line-height: initial; 
+            max-width: 100%; 
+            width: 100%; 
+          }
+        }
+        .col_content-2 {padding-top: 140px;}
+      }
+    }
+    .enquiry-form {
+      padding-top: 590px;
+      p {width: 100%; font-size: 0.938rem;}
+    }
+  }
+}
+@media (max-width: 364px) {
+  .main {
+    .seo-marketing-agency .as-content {
+      .col_content-1 {padding: 40px 0 280px 0;}
+    }
+    .marketing-team .row .col_3 {
+      .block_top, .block_bottom {margin-left: 10px;}
+    }
+    .enquiry-form {padding-top: 620px;}
+  }
+}
+@media (max-width: 320px) {
+  .wrapper {width: 310px;}
+}

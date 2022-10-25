@@ -1,0 +1,71 @@
+@font-face {
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+  font-family: "JostRegular";
+  src: url(/webfonts/JostRegular.woff) format("woff");
+}
+@font-face {
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+  font-family: "DMSerifDisplayRegular";
+  src: url(/webfonts/DMSerifDisplayRegular.woff) format("woff");
+}
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 2.51rem;
+  line-height: 36px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "DMSerifDisplayRegular";
+  font-weight: 400;
+  margin: 0;
+}
+
+h2, p, span {
+  letter-spacing: 0.22px;
+}
+
+p,
+a,
+ul,
+li,
+span,
+button,
+input,
+textarea,
+address {
+  font-family: "JostRegular";
+  font-weight: 400;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+img {
+  user-select: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+address {
+  font-size: 1.5rem;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=base.css.map */

@@ -1,0 +1,101 @@
+.wrapper {
+  background-color: #fff;
+}
+
+.header-wr {
+  background-color: #5B25B3;
+}
+
+.l-header .header-menu .nav nav a {
+  color: #3F3B3D;
+}
+.l-header .header-menu .btn {
+  background: #DDDBDA;
+  color: #3F3B3D;
+}
+.l-header .header-menu #counter-label {
+  background-color: #3F3B3D;
+  color: #fff;
+}
+
+.l-main .l-collection-block .collection-item a {
+  color: #3F3B3D;
+}
+.l-main .l-collection-block .collection-item-desc {
+  background: #e9e9e7;
+}
+.l-main .l-collection-block .shop-categories .shop-all-wr, .l-main .l-collection-block .shop-categories .browse-collection-wr {
+  color: #fff;
+}
+@media (max-width: 575.98px) {
+  .l-main .l-collection-block .shop-categories .shop-all, .l-main .l-collection-block .shop-categories .browse-collection {
+    background: #3F3B3D;
+  }
+}
+.l-main .l-journal-block .top-news-content {
+  background: #fff;
+}
+.l-main .l-journal-block .top-news-content a {
+  color: #3F3B3D;
+}
+@media (max-width: 991.98px) {
+  .l-main .l-journal-block .top-news-content {
+    background: #3F3B3D;
+    color: #fff;
+  }
+  .l-main .l-journal-block .top-news-content a {
+    color: #F14814;
+  }
+}
+.l-main .l-journal-block .last-news-list .ln-section .lns-link {
+  color: #3F3B3D;
+}
+.l-main .l-journal-block .last-news-list .ln-section .lns-link span {
+  color: #5D6E67;
+}
+
+.l-main .l-shop-block .shop-preview,
+.l-main .l-celebrating-imperfect,
+.l-footer {
+  background: #3F3B3D;
+}
+.l-main .l-shop-block .shop-preview .sub,
+.l-main .l-celebrating-imperfect .sub,
+.l-footer .sub {
+  color: #fff;
+}
+.l-main .l-shop-block .shop-preview .contacts li,
+.l-main .l-celebrating-imperfect .contacts li,
+.l-footer .contacts li {
+  color: #F14814;
+}
+.l-main .l-shop-block .shop-preview .contacts a,
+.l-main .l-celebrating-imperfect .contacts a,
+.l-footer .contacts a {
+  color: #fff;
+}
+.l-main .l-shop-block .shop-preview .copyright span:nth-child(1), .l-main .l-shop-block .shop-preview .l-author span:nth-child(1),
+.l-main .l-celebrating-imperfect .copyright span:nth-child(1),
+.l-main .l-celebrating-imperfect .l-author span:nth-child(1),
+.l-footer .copyright span:nth-child(1),
+.l-footer .l-author span:nth-child(1) {
+  color: #fff;
+}
+.l-main .l-shop-block .shop-preview .copyright span:nth-child(2), .l-main .l-shop-block .shop-preview .copyright .layout-link a, .l-main .l-shop-block .shop-preview .l-author span:nth-child(2), .l-main .l-shop-block .shop-preview .l-author .layout-link a,
+.l-main .l-celebrating-imperfect .copyright span:nth-child(2),
+.l-main .l-celebrating-imperfect .copyright .layout-link a,
+.l-main .l-celebrating-imperfect .l-author span:nth-child(2),
+.l-main .l-celebrating-imperfect .l-author .layout-link a,
+.l-footer .copyright span:nth-child(2),
+.l-footer .copyright .layout-link a,
+.l-footer .l-author span:nth-child(2),
+.l-footer .l-author .layout-link a {
+  color: #F14814;
+}
+.l-main .l-shop-block .shop-preview .l-author span a,
+.l-main .l-celebrating-imperfect .l-author span a,
+.l-footer .l-author span a {
+  color: #00f7ff;
+}
+
+/*# sourceMappingURL=theme.css.map */

@@ -1,0 +1,19 @@
+.sw-bg {
+  background: #eeeeee;
+}
+
+.l-main a {
+  color: #000;
+}
+
+.l-footer .l-author span {
+  color: #3d5675;
+}
+.l-footer .l-author strong {
+  color: #00e1ff;
+}
+.l-footer .l-author a {
+  color: #f2ae4d;
+}
+
+/*# sourceMappingURL=theme.css.map */

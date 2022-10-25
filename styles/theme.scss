@@ -1,0 +1,30 @@
+// Include mixins
+@import "lib/breakpoints";
+// Theme classes
+.sw-bg {
+  background: #eeeeee;
+}
+// Header
+.l-header {
+}
+// Buttons
+
+// Main
+.l-main {
+  a {
+    color: #000;
+  }
+}
+.l-footer {
+  .l-author {
+    span {
+      color: #3d5675;
+    }
+    strong {
+      color: #00e1ff;
+    }
+    a {
+      color: #f2ae4d;
+    }
+  }
+}

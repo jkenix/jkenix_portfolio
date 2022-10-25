@@ -1,0 +1,11 @@
+dist/
+**/cache
+**/.cache
+.cache/
+cache/
+node_modules/
+**package-lock.json
+*.txt
+*.zip
+Test/
+README.md

@@ -1,0 +1,54 @@
+// Import mixins, variables
+@import "mixins_var.scss";
+// Layout classes
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.l-header {
+  margin: 20px 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+.l-main {
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 105px;
+  h2 {
+    margin-bottom: 40px;
+  }
+  a {
+    font-size: 1.5rem;
+  }
+  &-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(308.7px, 1fr));
+    grid-gap: 37px;
+    .page-block {
+      max-width: 350px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+.l-footer {
+  margin: 20px 0;
+  .l-author {
+    margin-top: 32px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    white-space: nowrap;
+    span,
+    a {
+      font-size: 1.5rem;
+    }
+  }
+}
