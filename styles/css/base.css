@@ -2,7 +2,7 @@
   font-display: swap;
   text-rendering: optimizeLegibility;
   font-family: "DMSerifDisplayRegular";
-  src: url(/webfonts/DMSerifDisplayRegular.woff) format("woff");
+  src: url(/jkportfolio/webfonts/DMSerifDisplayRegular.woff) format("woff");
 }
 html {
   scroll-behavior: smooth;
@@ -18,7 +18,8 @@ li,
 span,
 button,
 input,
-textarea, address {
+textarea,
+address {
   font-family: "DMSerifDisplayRegular";
   font-weight: 400;
   margin: 0;

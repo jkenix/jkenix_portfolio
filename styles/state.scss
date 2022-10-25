@@ -35,6 +35,14 @@
   }
 }
 // Main
+.l-header {
+  a:hover {
+    color: rgb(47, 28, 218);
+  }
+  a:active {
+    color: #788899;
+  }
+}
 .l-main a {
   &:hover {
     color: rgb(47, 28, 218);

@@ -1,1 +1,7 @@
-@import "/styles/lib/normalize.css";@import "/styles/arka/css/base.css";@import "/styles/arka/css/layout.css";@import "/styles/arka/css/media.css";@import "/styles/arka/css/theme.css";@import "/styles/arka/css/state.css";@import "/styles/arka/css/module.css";
+@import "/jkportfolio/styles/lib/normalize.css";
+@import "/jkportfolio/styles/arka/css/base.css";
+@import "/jkportfolio/styles/arka/css/layout.css";
+@import "/jkportfolio/styles/arka/css/media.css";
+@import "/jkportfolio/styles/arka/css/theme.css";
+@import "/jkportfolio/styles/arka/css/state.css";
+@import "/jkportfolio/styles/arka/css/module.css";

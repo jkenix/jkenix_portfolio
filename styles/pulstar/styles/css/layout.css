@@ -199,7 +199,7 @@
   height: 477px;
 }
 .l-main .l-collection-block .shop-categories .shop-all {
-  background: url("/img/shop-all.png") no-repeat center;
+  background: url("/jkportfolio/img/shop-all.png") no-repeat center;
 }
 .l-main .l-collection-block .shop-categories .shop-all-desc {
   margin: 379px auto 0px auto;
@@ -209,7 +209,7 @@
   margin-bottom: 10px;
 }
 .l-main .l-collection-block .shop-categories .browse-collection {
-  background-image: url("/img/browse-collection.png");
+  background-image: url("/jkportfolio/img/browse-collection.png");
 }
 .l-main .l-collection-block .shop-categories .browse-collection-desc {
   margin: 379px auto 8px auto;
@@ -310,7 +310,7 @@
   line-height: 16px;
 }
 .l-main .l-journal-block .top-news {
-  background: url("/img/journal-top-pic.png") center no-repeat;
+  background: url("/jkportfolio/img/journal-top-pic.png") center no-repeat;
 }
 .l-main .l-journal-block .top-news-content {
   width: 407px;

@@ -29,6 +29,13 @@
   transition: fill 0s ease-out;
 }
 
+.l-header a:hover {
+  color: rgb(47, 28, 218);
+}
+.l-header a:active {
+  color: #788899;
+}
+
 .l-main a:hover {
   color: rgb(47, 28, 218);
   outline: 4px solid #000;

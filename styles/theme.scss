@@ -6,6 +6,9 @@
 }
 // Header
 .l-header {
+  a {
+    color: #000;
+  }
 }
 // Buttons
 
@@ -17,12 +20,6 @@
 }
 .l-footer {
   .l-author {
-    span {
-      color: #3d5675;
-    }
-    strong {
-      color: #00e1ff;
-    }
     a {
       color: #f2ae4d;
     }
