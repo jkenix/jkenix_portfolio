@@ -4,15 +4,22 @@
 
 ## Adaptive Web-sites:
 
-- [**Feni Studio**](https://github.com/jkenix/jkenix-project/tree/feni-website) on React.js 🔗
-- [**Toystream**](https://github.com/jkenix/jkenix.github.io/tree/toystream) on React.js 🔗
+|Name|Demonstration|Repository|
+|:------------------:|:------:|:------:|
+|**Feni**|[Link](https://feni.pages.dev/)|[Link](https://github.com/jkenix/jkenix-project/tree/feni-website)|
+|**Toystream**|[Link](https://toystream.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/toystream) |
+<!-- |       |[Link]()|[Link]()| -->
 
-## Adaptive Landings:
+## Adaptive Landings Pages:
 
-- [**Pages**](https://github.com/jkenix/jkenix.github.io/tree/pages-page) 🔗
-- [**Interno**](https://github.com/jkenix/jkenix.github.io/tree/interno) 🔗
-- [**Arka**](https://github.com/jkenix/jkenix.github.io/tree/arka) 🔗
-- [**Pulstar**](https://github.com/jkenix/jkenix.github.io/tree/pulstar) 🔗
-- [**Seoflow**](https://github.com/jkenix/jkenix.github.io/tree/seoflow) 🔗
+|Name|Demonstration|Repository|
+|:------------------:|:------:|:------:|
+|**Pages**|[Link](https://feni.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/pages-page)|
+|**Interno**|[Link](https://interno.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/interno)|
+|**Arka**|[Link](https://arka.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/arka)|
+|**Pulstar**|[Link](https://pulstar.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/pulstar)|
+|**Seoflow**|[Link](https://seoflow.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/seoflow)|
+<!-- |       |[Link]()|[Link]()|-->
+
 
 **Actual catalog** with the current project I'm working on, you can check out [here](https://github.com/jkenix/jkenix-projects) ✅
