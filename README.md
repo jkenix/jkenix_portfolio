@@ -4,7 +4,7 @@
 
 ## Adaptive Web-sites: ⭐  
 
-|Name|Demonstration 🔗|Repository 🔍|
+|Name|Demo 🔗|Repo 🔍|
 |:------------------:|:------:|:------:|
 |**Feni**|[Link](https://feni.pages.dev/)|[Link](https://github.com/jkenix/jkenix-project/tree/feni-website)|
 |**Toystream**|[Link](https://toystream.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/toystream) |
@@ -12,7 +12,7 @@
 
 ## Adaptive Landings Pages: 🌟  
 
-|Name|Demonstration 🔗|Repository 🔍|
+|Name|Demo 🔗|Repo 🔍|
 |:------------------:|:------:|:------:|
 |**Pages**|[Link](https://feni.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/pages-page)|
 |**Interno**|[Link](https://interno.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/interno)|
@@ -24,5 +24,4 @@
 ## 
 **Actual repo** with the current project I'm working on, you can check out [here](https://github.com/jkenix/jkenix-projects) ✅
 
-### Others repo: 🌐
-- [First study repo](https://github.com/jkenix/jkenix.github.io) 🔗  
+**First study repo** check [here](https://github.com/jkenix/jkenix.github.io) 🔗  
