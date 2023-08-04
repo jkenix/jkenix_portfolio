@@ -1,6 +1,6 @@
-# 🙌 Jkenix's web development project Portfolio. 🙌
+# Jkenix's web development project Portfolio. 🙌
 
-⚡ All of jkenix's significant web development works are collected here. ⚡
+All of jkenix's significant web development works are collected here! ⚡
 
 ## Adaptive Web-sites: ⭐  
 
