@@ -1,6 +1,6 @@
 # Jkenix's web development project Portfolio. 🙌
 
-All of jkenix's significant web development works are collected here! ⚡
+All of jkenix's best web development works are collected here! ⚡
 
 ## Adaptive Web-sites: ⭐  
 
@@ -18,7 +18,6 @@ All of jkenix's significant web development works are collected here! ⚡
 |**Interno**|[Link](https://interno.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/interno)|
 |**Seoflow**|[Link](https://seoflow.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/seoflow)|
 |**Pulstar**|[Link](https://pulstar.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/pulstar)|
-|**Arka**|[Link](https://arka.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/arka)|
 <!-- |       |[Link]()|[Link]()|-->
 
 ## 
