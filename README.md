@@ -21,6 +21,6 @@ All of jkenix's best web development works are collected here! ⚡
 <!-- |       |[Link]()|[Link]()|-->
 
 ## 
-**Actual repo** with the current project I'm working on, you can check out [here](https://github.com/jkenix/jkenix-projects) ✅
+**Actual repo** with the current projects I'm working on, you can check out [here](https://github.com/jkenix/jkenix-projects) ✅
 
 **Repo with all old study works** check [here](https://github.com/jkenix/jkenix.github.io) 🔗  
