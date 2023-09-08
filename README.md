@@ -18,7 +18,8 @@ All of jkenix's best web development works are collected here! ⚡
 |**Seoflow**|[Link](https://seoflow.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/seoflow)|
 |**Pulstar**|[Link](https://pulstar.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/pulstar)|
 
-## 
+---
+
 **Actual repo** with the current projects I'm working on, you can check out [here](https://github.com/jkenix/jkenix-projects) ✅
 
 **Repo with all old study works** check [here](https://github.com/jkenix/jkenix.github.io) 🔗  
