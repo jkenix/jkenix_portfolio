@@ -1,4 +1,4 @@
-# Jkenix's web development project Portfolio. 🙌
+# Jkenix's web development project Portfolio. 
 
 All of jkenix's best web development works are collected here! ⚡
 
