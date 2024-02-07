@@ -3,4 +3,4 @@ plugins:
     - jekyll-remote-theme
 favicon:
     title: jkenix Porfolio
-    icon_path: favicons.ico
+    icon_path: favicon.ico
