@@ -2,14 +2,16 @@
 
 All of jkenix's best web development works are collected here! ⚡
 
-## Adaptive Web-sites: ⭐  
+## **Study projects** ⬇️
+
+### Adaptive Web-sites: ⭐  
 
 |Name|Demo 🔗|Repo 🔍|
 |:------------------:|:------:|:------:|
 |**Feni**|[Link](https://feni.pages.dev/)|[Link](https://github.com/jkenix/jkenix-project/tree/feni-website)|
 |**Toystream**|[Link](https://toystream.pages.dev/)|[Link](https://github.com/jkenix/jkenix.github.io/tree/toystream) |
 
-## Adaptive Landings Pages: 🌟  
+### Adaptive Landings Pages: 🌟  
 
 |Name|Demo 🔗|Repo 🔍|
 |:------------------:|:------:|:------:|
