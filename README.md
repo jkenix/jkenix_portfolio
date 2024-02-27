@@ -19,4 +19,4 @@ All of jkenix's best web development works are collected here! ⚡
 
 ---
 
-**Actual repo** with the current projects I'm working on, you can check out [here](https://github.com/jkenix/jkenix-projects) ✅ 
+**Actual repo** with the current projects I'm working on, you [can check out here](https://github.com/jkenix/jkenix-projects) ✅ 
