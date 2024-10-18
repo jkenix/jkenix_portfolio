@@ -1,7 +1,5 @@
 # Jkenix's web projects Portfolio. 
 
-All of jkenix's best web development works are collected here! ⚡
-
 ## **Study projects** ⬇️
 
 ### Adaptive Web-sites: ⭐  
